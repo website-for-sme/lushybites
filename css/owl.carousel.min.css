@@ -12,15 +12,14 @@
      display: none;
      width: 100%;
      z-index: 1;
-     touch-action: auto;
-    -ms-touch-action: auto;
-
  }
  .owl-carousel .owl-stage {
      position: relative;
      -ms-touch-action: pan-Y;
      touch-action: manipulation;
      -moz-backface-visibility: hidden;
+     touch-action: auto;
+    -ms-touch-action: auto;
  }
  .owl-carousel .owl-stage:after {
      content: ".";
